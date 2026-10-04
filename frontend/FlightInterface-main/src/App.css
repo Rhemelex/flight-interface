@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  padding: 20px;
+}
+
+.controls {
+  margin-bottom: 20px;
+}
+
+.controls button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.data-display {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.altitude, .his, .adi {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 200px;
+  height: 300px;
+  position: relative;
+}
+
+.input-form {
+  margin-bottom: 20px;
+}
+
+.input-form input {
+  margin: 0 10px;
+  padding: 5px;
+  width: 100px;
+}
+
+.input-form button {
+  padding: 5px 15px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .data-display {
+    flex-direction: column;
+    align-items: center;
+  }
+  .altitude, .his, .adi {
+    margin-bottom: 20px;
+  }
+}
