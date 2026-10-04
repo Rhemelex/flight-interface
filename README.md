@@ -1,4 +1,4 @@
-# Project Pook
+# Flight Interface
 
 A small full-stack flight dashboard project with a React frontend and a Flask backend.
 
@@ -7,7 +7,7 @@ The app displays a flight instrument-style interface for altitude, heading (HIS)
 ## Project Structure
 
 ```text
-flight-control-panel/
+flight-interface/
 ├── backend/
 │   ├── main.py
 │   ├── requirements.txt
