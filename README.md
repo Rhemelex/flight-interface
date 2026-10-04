@@ -7,7 +7,6 @@ The app displays a flight instrument-style interface for altitude, heading (HIS)
 ## Project Structure
 
 ```text
-
 flight-control-panel/
 ├── backend/
 │   ├── main.py
